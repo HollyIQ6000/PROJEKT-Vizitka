@@ -14,3 +14,87 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+	background-color: #b2bec3;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
+}
+
+img {
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+	border: 3px solid white;
+	
+}
+
+
+
+.foto {
+	position: absolute;
+	right: -75px;
+	top: -75px;
+}
+
+h1{
+text-align: justify;	
+color: #d63031;
+font-size: 36px;
+
+}
+
+.text {
+	position: relative;
+	background-color: white;
+	font-size: 18px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	padding: 30px 30px 30px 30px;
+	border-radius: 10px;
+	box-shadow: black 4px 6px 20px ;
+
+}
+
+.button{
+	width: 100%;
+}
+
+.tw{
+	display: flex;
+	flex-direction: column;
+	background-color: #1da1f2;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 5px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+
+}
+
+
+.fb{
+	display: flex;
+	flex-direction: column;
+	background-color: #3b5998;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	
+}
+
+.tw:hover {
+	background-color:#0b7bc1 ;
+}
+
+.fb:hover {
+	background-color:#2b406e ;
+}
